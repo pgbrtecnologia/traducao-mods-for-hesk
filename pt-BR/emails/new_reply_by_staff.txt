@@ -1,0 +1,24 @@
+Prezado(a) %%NAME%%,
+
+Nossa equipe já respondeu o seu chamado: %%TRACK_ID%%
+Assunto: "%%SUBJECT%%".
+
+
+Mensagem de resposta:
+%%MESSAGE%%
+
+
+Você pode acessar o chamado aqui:
+%%TRACK_URL%%
+
+
+*NÃO RESPONDA ESTE E-MAIL !!!*
+Esta é uma mensagem automática enviada pelo Sistema de Gestão de CHAMADOS. Não responda este e-mail, pois não irá receber nenhuma resposta!
+Utilize o link acima para uma comunicação adequada.
+
+Atenciosamente,
+
+Sistema de Gestão de Chamados.
+
+%%SITE_TITLE%%
+%%SITE_URL%%

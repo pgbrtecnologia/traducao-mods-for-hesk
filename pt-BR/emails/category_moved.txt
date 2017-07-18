@@ -1,0 +1,22 @@
+Olá,
+
+Um novo chamado foi movido para a sua categoria. Detalhes do chamado:
+
+Assunto do Chamado: %%SUBJECT%%
+Identificador do Chamado: %%TRACK_ID%%
+
+Você pode gerenciar este chamado por aqui:
+%%TRACK_URL%%
+
+
+
+*NÃO RESPONDA ESTE E-MAIL !!!*
+Esta é uma mensagem automática enviada pelo Sistema de Gestão de Chamados. Não responda este e-mail, pois quem solicitou o chamado não irá receber a sua resposta.
+Para modificar as suas preferências de recebimento de e-mail vá até a administração do sistema e clique em "Perfil".
+
+Atenciosamente,
+
+Sistema de Gestão de Chamados.
+
+%%SITE_TITLE%%
+%%SITE_URL%%

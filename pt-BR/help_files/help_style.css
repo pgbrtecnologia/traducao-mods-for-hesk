@@ -13,21 +13,12 @@ p {
         font-size: 1.0em;
 }
 
-h2 {
-    text-align: center;
-
-}
-
 h3 {
-        color : #000;
+        color : #AF0000;
         font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
         font-weight: bold;
         font-size: 1.0em;
         text-align:center;
-}
-
-h4 {
-    color: #428bca;
 }
 
 .section {

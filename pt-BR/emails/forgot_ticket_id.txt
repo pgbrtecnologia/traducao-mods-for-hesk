@@ -1,0 +1,17 @@
+Prezado(a) %%NAME%%,
+
+Este e-mail contém uma lista de chamados enviados com o seu endereço de e-mail. 
+Total de chamados encontrados: %%NUM%%
+
+%%LIST_TICKETS%%
+
+
+*NÃO RESPONDA ESTE E-MAIL !!!*
+Esta é uma mensagem automática enviada pelo Sistema de Gestão de CHAMADOS. Não responda este e-mail, pois não irá receber nenhuma resposta!
+
+Atenciosamente,
+
+Sistema de Gestão de Chamados.
+
+%%SITE_TITLE%%
+%%SITE_URL%%
