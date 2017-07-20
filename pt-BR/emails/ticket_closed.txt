@@ -1,19 +1,14 @@
-Prezado(a) %%NAME%%,
+Dear %%NAME%%,
 
-Seu ticket %%TRACK_ID%% foi marcado como Resolvido.
-Assunto: "%%SUBJECT%%".
+Your support ticket "%%SUBJECT%%" has been updated to a closed/resolved status.
 
-Vocę pode acessar o chamado aqui:
+Ticket tracking ID: %%TRACK_ID%%
+
+You can view the status of your ticket here:
 %%TRACK_URL%%
 
 
-*NĂO RESPONDA ESTE E-MAIL !!!*
-Esta é uma mensagem automática enviada pelo Sistema de Gestăo de CHAMADOS. Năo responda este e-mail, pois năo irá receber nenhuma resposta!
-Utilize o link acima para uma comunicaçăo adequada.
-
-Atenciosamente,
-
-Sistema de Gestăo de Chamados.
+Sincerely,
 
 %%SITE_TITLE%%
 %%SITE_URL%%
