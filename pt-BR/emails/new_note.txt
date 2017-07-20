@@ -1,17 +1,9 @@
-Hello,
-
-A new note has been added to ticket "%%SUBJECT%%".
-
-Note by %%NAME%%:
-
-%%MESSAGE%%
-
-
-You can manage this ticket here:
-%%TRACK_URL%%
-
-
-Regards,
-
-%%SITE_TITLE%%
+<p>Hello,</p>
+<p>A new note has been added to ticket "%%SUBJECT%%".</p>
+<p>Note by %%NAME%%:</p>
+<p>%%MESSAGE%%</p>
+<p>You can manage this ticket here:
+%%TRACK_URL%%</p>
+<p>Regards,</p>
+%%SITE_TITLE%% <br>
 %%SITE_URL%%
