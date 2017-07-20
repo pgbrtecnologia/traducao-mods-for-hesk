@@ -1,17 +1,28 @@
-Hello,
+Olá,
 
-A new note has been added to ticket "%%SUBJECT%%".
+Uma nova nota foi incluída ao chamado que está atribuído a você: %%TRACK_ID%%
+Assunto: "%%SUBJECT%%"
 
-Note by %%NAME%%:
+Nota de %%NAME%%.
 
+
+Mensagem da nota:
 %%MESSAGE%%
 
 
-You can manage this ticket here:
+Você pode ver o chamado aqui:
 %%TRACK_URL%%
 
 
-Regards,
+*NÃO RESPONDA ESTE E-MAIL !!!*
+Esta é uma mensagem automática enviada pelo Sistema de Gestão de Chamados. Não responda este e-mail, pois não irá receber nenhuma resposta!
+Utilize o link acima para uma comunicação adequada.
+
+
+
+Atenciosamente,
+
+Sistema de Gestão de Chamados.
 
 %%SITE_TITLE%%
 %%SITE_URL%%

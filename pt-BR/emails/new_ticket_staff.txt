@@ -1,0 +1,26 @@
+Olá,
+
+Um novo CHAMADO foi enviado. Veja os detalhes deste novo CHAMADO:
+
+Assunto do CHAMADO: %%SUBJECT%%
+Número de Identificação do CHAMADO: %%TRACK_ID%%
+
+
+MENSAGEM:
+%%MESSAGE%%
+
+
+Você pode gerenciar este CHAMADO por aqui:
+%%TRACK_URL%%
+
+
+*NÃO RESPONDA ESTE E-MAIL !!!*
+Esta é uma mensagem automática enviada pelo Sistema de Gestão de CHAMADOS. Não responda este e-mail, pois quem solicitou o chamado não irá receber a sua resposta. Utilize o link acima para uma comunicação adequada.
+Para modificar as suas preferências de recebimento de e-mail vá até a administração do sistema e clique em "Perfil".
+
+Atenciosamente,
+
+Sistema de Gestão de Chamados.
+
+%%SITE_TITLE%%
+%%SITE_URL%%

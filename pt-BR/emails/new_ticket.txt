@@ -1,0 +1,28 @@
+Prezado(a) %%NAME%%,
+
+Seu chamado "%%SUBJECT%%" foi enviado. A nossa equipe vai tentar responder todos os chamados enviados o mais rápido possível.
+
+
+MENSAGEM:
+%%MESSAGE%%
+
+
+Seu número de identificação deste chamado: %%TRACK_ID%%
+
+Você pode acompanhar o status de seu chamado clicando aqui:
+%%TRACK_URL%%
+
+Você receberá e-mails de notificação sempre que nossa equipe responder o seu chamado.
+
+*NÃO RESPONDA ESTE E-MAIL !!!*
+Esta é uma mensagem automática enviada pelo Sistema de Gestão de Chamados. Não responda este e-mail, pois não irá receber nenhuma resposta!
+Utilize o link acima para uma comunicação adequada.
+
+
+
+Atenciosamente,
+
+Sistema de Gestão de Chamados.
+
+%%SITE_TITLE%%
+%%SITE_URL%%
