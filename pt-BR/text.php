@@ -11,6 +11,7 @@
 * Murilo Zoratti
 * Fabio Bmed (http://www.fabiobmed.com.br)
 * Bruno Andrade da Silva
+* Felipe Carvalho
 * Niedli Patrik
 * Phillip Beck
 *
