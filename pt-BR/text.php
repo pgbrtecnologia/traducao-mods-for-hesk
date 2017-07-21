@@ -206,7 +206,7 @@ $hesklang['manage_users']='Gerenciar usuários';
 $hesklang['users_intro']='Aqui você pode gerenciar usuários que podem fazer login no painel de administração e
 Responder tickets. Os administradores podem ver / editar tickets em qualquer categoria e ter acesso
 Para todas as funções do painel de administração (gerenciar usuários, gerenciar categorias, ...) enquanto
-Outros usuários só podem ver e responder a tickets dentro de suas categorias. ';
+Outros usuários só podem ver e responder a tickets dentro de suas categorias.';
 $hesklang['yes']='SIM';
 $hesklang['no']='NÃO';
 $hesklang['edit']='Editar';
@@ -398,7 +398,7 @@ $hesklang['viewkb']='Veja toda a Base de Conhecimento';
 $hesklang['kb']='Gerenciar Base de Conhecimento';
 $hesklang['kb_intro']='Base de Conhecimento é uma coleção de respostas para perguntas freqüentes (FAQ) e artigos que fornecem recursos de auto-ajuda para seus clientes.
 Uma base de conhecimento abrangente e bem escrita pode reduzir drasticamente o número de tickets de suporte que você recebe e economizar muito tempo. Você pode organizar artigos em categorias
-E sub-categorias. '; //Descrição no painel ADMIN
+E sub-categorias.'; //Descrição no painel ADMIN
 $hesklang['kb_is']='A base de conhecimento é uma coleção categorizada de respostas para perguntas freqüentes (FAQ) e artigos. Você pode ler artigos nesta categoria ou selecionar uma subcategoria que lhe interessa.';
 $hesklang['new_kb_art']='Novo artigo da base de conhecimento';
 $hesklang['kb_cat']='Categoria';
@@ -411,7 +411,7 @@ $hesklang['kb_private']='Privado';
 $hesklang['kb_private2']='Os artigos privados só podem ser lidos pela equipe.';
 $hesklang['kb_draft']='Esboço, projeto';
 $hesklang['kb_draft2']='O artigo é salvo, mas ainda não publicado. Só pode ser lido pelo pessoal <br /> quem tem permissão para gerenciar artigos da base de conhecimento.';
-$hesklang['kb_links']='<i><span class = "notice"> <b>Aviso!</b></ span> <br /> Digite o código válido sem&lt; head&gt; E&lt; body&gt; Tags, apenas conteúdos!</i>';
+$hesklang['kb_links']='<i><span class = "notice"> <b>Aviso!</b></span> <br /> Digite o código válido sem&lt; head&gt; E&lt; body&gt; Tags, apenas conteúdos!</i>';
 $hesklang['kb_ehtml']='Este é o código HTML (vou inserir o código HTML válido (X)';
 $hesklang['kb_dhtml']='Isso é texto simples (os links serão clicáveis)';
 $hesklang['kb_save']='Salvar artigo';
@@ -584,8 +584,8 @@ $hesklang['ap']='ir para o Painel Administrativo';
 $hesklang['dap']='Exibir um link para o painel de administração de <a href="../" target="_blank"> índice de help desk </a>';
 $hesklang['q_miss']='Por favor, responda a pergunta anti-SPAM';
 $hesklang['use_q']='Use a pergunta anti-SPAM';
-$hesklang['q_q']='-&gt; Question (HTML code is <font class="success">allowed</font>)';
-$hesklang['q_a']='-&gt; Answer';
+$hesklang['q_q']='&gt; Question (HTML code is <font class="success">allowed</font>)';
+$hesklang['q_a']='&gt; Answer';
 $hesklang['err_qask']='Insira uma pergunta anti-SPAM';
 $hesklang['err_qans']='Digite a resposta para a pergunta anti-SPAM';
 $hesklang['genq']='Gerar uma pergunta aleatória';
@@ -832,7 +832,7 @@ $hesklang['num_tickets_untag']='Os Tickets <b>%d</b> foram desbloqueados';
 $hesklang['can_add_archive']='Pode marcar os Tickets';
 $hesklang['disp_only_archived']='Apenas Tickets marcados';
 $hesklang['search_only_archived']='Apenas Tickets marcados';
-$hesklang['critical']='  * Crítico *';
+$hesklang['critical']='*Crítica*';
 // START abbreviatons used in "last updated" column
 $hesklang['abbr']='y';
 $hesklang['abbr']='mo';
@@ -865,9 +865,9 @@ $hesklang['def']='Tornar esta minha visão padrão';
 $hesklang['gbou']='Estes Tickets são <b>Não atribuídos</b>:';
 $hesklang['gbom']='Tickets atribuídos a <b>eu</b>:';
 $hesklang['gboo']='Tickets atribuídos a <b>%s</b>:';
-$hesklang['select']=' - - Clique para selecionar - -';
+$hesklang['select']='--Clique para selecionar--';
 $hesklang['chngstatus']='Alterar o status para';
-$hesklang['perat']=' %s de todos os Tickets';
+$hesklang['perat']='%s de todos os Tickets';
 $hesklang['viewart']='Veja este artigo';
 $hesklang['chdp']='Por favor, altere a senha padrão na sua página <a href="profile.php"> Perfil</a>!';
 $hesklang['chdp2']='Altere sua senha, você está usando a padrão!';
@@ -1139,7 +1139,7 @@ $hesklang['pmem']='Uso máximo da memória: %.2f Mb';
 $hesklang['ch2d']='&Raquo; CLIQUE AQUI PARA DESCARREGAR O ARQUIVO DE EXPORTAÇÃO&laquo;';
 $hesklang['n2ex']='Nenhum ticket encontrado corresponde aos seus critérios, nada para exportar!';
 $hesklang['sp']='Prevenção SPAM';
-$hesklang['sit']='-&gt; Tipo de imagem';
+$hesklang['sit']='&gt; Tipo de imagem';
 $hesklang['sis']='Imagem simples';
 $hesklang['pop3keep']='Mantenha uma cópia';
 $hesklang['err_dbconn']='Não foi possível conectar-se ao banco de dados MySQL usando informações fornecidas!';
@@ -1349,7 +1349,7 @@ $hesklang['notnew']='Um novo ticket de suporte é enviado';
 $hesklang['notclo']='Um tíquete de suporte é marcado Resolvido';
 $hesklang['enn']='Com exceção de e-mail piping / POP3 procurando se o assunto do e-mail contiver:';
 $hesklang['spamn']='Aviso SPAM';
-$hesklang['spam_inbox']='<Span style = "color: red"> <b>Nenhum e-mail de confirmação?</b><br /> Enviamos uma mensagem de confirmação para o seu endereço de e-mail. Se você não receber isso dentro de alguns minutos, verifique suas pastas de Lixo, Bulk ou Spam. Marque a mensagem como <b>Não SPAM</b> para evitar problemas ao receber nossa correspondência no futuro. </ Span>';
+$hesklang['spam_inbox']='<Span style = "color: red"> <b>Nenhum e-mail de confirmação?</b><br /> Enviamos uma mensagem de confirmação para o seu endereço de e-mail. Se você não receber isso dentro de alguns minutos, verifique suas pastas de Lixo, Bulk ou Spam. Marque a mensagem como <b>Não SPAM</b> para evitar problemas ao receber nossa correspondência no futuro. </Span>';
 $hesklang['s_ekb']='Habilitar Base de Conhecimento';
 $hesklang['ekb_n']='<b>NO</b>, desabilite a Base de Conhecimento';
 $hesklang['ekb_y']='<b>YES</b>, habilite a Base de Conhecimento';
@@ -1424,7 +1424,7 @@ $hesklang['default_subject']='Ticket de %s';
 $hesklang['off-hide']='Ocultar no formulário do cliente';
 $hesklang['ons']='ON - Todos';
 $hesklang['not_valid_email']='Digite um endereço de e-mail válido ou deixe este campo vazio';
-$hesklang['write_down']='<Span style = "color: red"> Recomendamos que você anote seu ID de ticket para referência futura. </ Span>';
+$hesklang['write_down']='<Span style = "color: red"> Recomendamos que você anote seu ID de ticket para referência futura. </Span>';
 $hesklang['re_confirm1']='Desativar isso também desativará "Exigir e-mail para visualizar os Tickets" em "Segurança". Prosseguir?';
 $hesklang['re_confirm2']='Habilitar isso também habilitará "Exigir e-mail" em "Recursos". Prosseguir?';
 $hesklang['can_email_tpl']='Editar modelos de e-mail';
@@ -1446,7 +1446,7 @@ $hesklang['desc_new_note']='(Equipe) Nova nota em um ticket atribuído a você';
 $hesklang['desc_reset_password']='Limpar senha';
 $hesklang['etfm']='Falta um ou mais modelos de e-mail. <br /> <br /> Certifique-se de carregar todos os arquivos de modelo de e-mail dentro de sua pasta <i>/ Idioma / %s / e-mails</i>.';
 $hesklang['etfw']='Alguns modelos de e-mail não podem ser gravados. <br /> <br />
-                     Certifique-se de que o PHP tenha permissão para gravar em todos os arquivos dentro da sua pasta <i> / language /% s / e-mails </ i>. <br /> <br />
+                     Certifique-se de que o PHP tenha permissão para gravar em todos os arquivos dentro da sua pasta <i> / language /% s / e-mails </i>. <br /> <br />
                      Em servidores Unix você pode precisar de modelos de e-mail CHMOD para 666 (rw-rw-rw-)';
 $hesklang['et_e_id']='ID do modelo ausente';
 $hesklang['et_fm']='Este arquivo de modelo de e-mail está faltando';
@@ -1569,14 +1569,14 @@ $hesklang['fd']='Exportar arquivo excluído do servidor';
 $hesklang['search_the_knowledgebase']='Buscar na Base de Conhecimento';
 $hesklang['view_ticket_nav']='Ver Ticket';
 $hesklang['quick_help']='Ajuda rápida';
-$hesklang['quick_help_submit_ticket']='Por favor, preencha o formulário à direita para enviar um ticket. Os campos obrigatórios são marcados com <span class = "important"> *</ span>.';
+$hesklang['quick_help_submit_ticket']='Por favor, preencha o formulário à direita para enviar um ticket. Os campos obrigatórios são marcados com <span class = "important"> *</span>.';
 $hesklang['quick_help_view_ticket']='Por favor, preencha as informações solicitadas à direita para visualizar o seu ticket. Se você esqueceu sua ID para rastreamento do Ticket, clique em "Esqueceu o ID de rastreamento?".';
 $hesklang['information']='Em formação';
 $hesklang['admin_sidebar_ticket_id']='ID DE TICKET';
-$hesklang['priorityChange']='  - - Prioridade de Mudança - -';
-$hesklang['statusChange']='  - - Alterar Status - -';
-$hesklang['ownerChange']='  - - Alterar proprietário - -';
-$hesklang['categoryChange']='  - - Alterar categoria - -';
+$hesklang['priorityChange']='--Prioridade de Mudança--';
+$hesklang['statusChange']='--Alterar Status--';
+$hesklang['ownerChange']='--Alterar proprietário--';
+$hesklang['categoryChange']='--Alterar categoria--';
 $hesklang['navigation']='Navegação';
 $hesklang['nti']='Novo ticket';
 $hesklang['savedResponses']='Respostas salvas';
@@ -1690,7 +1690,7 @@ $hesklang['activation_key']='Chave de ativação';
 $hesklang['no_tickets_created']='Nenhum ticket criado';
 $hesklang['customer_email_verification']='Verificações de E-mail do Cliente';
 $hesklang['customer_email_verification_help']='Exige que os clientes verifiquem seu endereço de e-mail por e-mail. Uma vez que
-     O endereço foi verificado, não precisa ser re-verificado no futuro. <br> <br> <b> NOTA: </ b> Ativar isso desativará o
+     O endereço foi verificado, não precisa ser re-verificado no futuro. <br> <br> <b> NOTA: </b> Ativar isso desativará o
      Capacidade para o cliente fornecer vários e-mails, pois HESK não poderá determinar qual e-mail precisa ser verificado.';
 $hesklang['require_customer_validate_email']='Exigir que os clientes verifiquem o e-mail';
 $hesklang['multi_eml_disabled']='Esse recurso foi desativado porque este help desk foi configurado para exigir que os clientes verifiquem seu endereço de e-mail';
@@ -1717,8 +1717,8 @@ $hesklang['mailgun_api_key_help']='Sua chave de API para Mailgun.';
 $hesklang['mailgun_domain']='Domínio Mailgun';
 $hesklang['mailgun_domain_help']='Seu domínio registrado para Mailgun';
 $hesklang['html_emails']='E-mails HTML';
-$hesklang['html_emails_help']='Enviar e-mails suportados por HTML para funcionários e clientes. <br> <br> Para usar esse recurso, crie uma nova pasta chamada <b> html </ b> em seu
-     Pasta de idioma <b> e-mails </ b> e crie modelos para cada arquivo de e-mail. Tanto as versões HTML e de texto claro serão enviadas (o programa de e-mail do destinatário será
+$hesklang['html_emails_help']='Enviar e-mails suportados por HTML para funcionários e clientes. <br> <br> Para usar esse recurso, crie uma nova pasta chamada <b> html </b> em seu
+     Pasta de idioma <b> e-mails </b> e crie modelos para cada arquivo de e-mail. Tanto as versões HTML e de texto claro serão enviadas (o programa de e-mail do destinatário será
      Exiba corretamente a versão HTML ou de texto sem formatação, dependendo das configurações do seu cliente de e-mail).';
 $hesklang['html_emails_text']='Permitir e-mails formatados em HTML';
 $hesklang['beta_text']='BETA';
@@ -1727,13 +1727,13 @@ $hesklang['beta_text']='BETA';
 $hesklang['e_mfh_settings']='Você não poderá salvar suas configurações, a menos que este arquivo seja gravável pelo script (CHMOD para 666)!';
 $hesklang['mfh_up_to_date']='Mods para HESK está atualizado';
 $hesklang['use_bootstrap_theme']='Use o CSS do Boostrap Theme';
-$hesklang['use_bootstrap_theme_help']='Ative isso para usar o arquivo <code> bootstrap-theme.css </ code>. Use isso para uma aparência e sensação mais 3D, ou desative-o para um olhar mais liso.';
+$hesklang['use_bootstrap_theme_help']='Ative isso para usar o arquivo <code> bootstrap-theme.css </code>. Use isso para uma aparência e sensação mais 3D, ou desative-o para um olhar mais liso.';
 
 // ADDED OR MODIFIED IN Mods for HESK 2.1.1
 $hesklang['new_article_default_type']='Tipo padrão para novos artigos';
 $hesklang['new_article_default_type_help']='Escolha o tipo padrão para novos artigos da base de conhecimento.';
 $hesklang['kb_draft3']='O artigo é salvo mas ainda não publicado. Só pode ser lido por funcionários que têm permissão para
-  Gerencie artigos da base de conhecimento. '; //Isso é exatamente o mesmo que kb_draft2 com todo o HTML removido
+  Gerencie artigos da base de conhecimento.'; //Isso é exatamente o mesmo que kb_draft2 com todo o HTML removido
 $hesklang['file_name']='Nome do arquivo';
 $hesklang['action']='Açao';
 $hesklang['click_to_preview']='Clique para visualizar';
@@ -1744,8 +1744,8 @@ $hesklang['email_templates']='Modelos de e-mail';
 $hesklang['email_templates_intro']='Você pode editar seus modelos de texto simples e HTML aqui.';
 $hesklang['edit_plain_text_template']='Editar modelo de texto simples';
 $hesklang['edit_html_template']='Edite o modelo HTML';
-$hesklang['editing_plain_text_template']='Editando o modelo de texto simples <code> %s </ code>'; // %s: O nome do arquivo de modelo, então o nome do idioma
-$hesklang['editing_html_template']='Editando o modelo HTML <code> %s </ code>'; // %s: o nome do arquivo do modelo, o nome do idioma
+$hesklang['editing_plain_text_template']='Editando o modelo de texto simples <code> %s </code>'; // %s: O nome do arquivo de modelo, então o nome do idioma
+$hesklang['editing_html_template']='Editando o modelo HTML <code> %s </code>'; // %s: o nome do arquivo do modelo, o nome do idioma
 $hesklang['show_special_tags']='Mostrar Tags especiais';
 $hesklang['hide_special_tags']='Ocultar Tags especiais';
 $hesklang['special_tag']='Tag especial';
@@ -1766,12 +1766,12 @@ $hesklang['error_saving_template']='Ocorreu um erro ao tentar salvar o modelo de
 $hesklang['can_man_email_tpl']='Editar modelos de e-mail';
 $hesklang['email_template_directory_not_writable']='O modelo de e-mail <b>%s</b>não é gravável pela HESK. CHMOD-lo para 0666.'; // %s: nome do arquivo do modelo
 $hesklang['closable_question']='Closable?';
-$hesklang['closable_description']='<b> <i> Esta configuração é ignorada se o & quot; Fechado? & Quot; A configuração é definida como ""Sim"" Para esse status </ i> </ b>.
-     <br> <br> Determina se o cliente e / ou a equipe podem fechar um ingresso nesse status.
-     <br> <br> <b> Sim: </ b> Tanto os clientes como a equipe podem fechar um ingresso nesse status.
-     <br> <b> Apenas clientes: </ b> Os clientes podem fechar um ticket nesse status, mas a equipe não pode.
-     <br> <b> Pessoal apenas: </ b> O pessoal pode fechar um ticket nesse status, mas os clientes não podem.
-     <br> <b> Não: </ b> Ninguém pode fechar um ticket nesse status. '; // & quot; = ""
+$hesklang['closable_description']='<b> <i> Esta configuração é ignorada se o & quot; Fechado? & Quot; A configuração é definida como ""Sim"" Para esse status </i> </b>.
+     <br> <br> Determina se o cliente e/ ou a equipe podem fechar um ingresso nesse status.
+     <br> <br> <b> Sim: </b> Tanto os clientes como a equipe podem fechar um ingresso nesse status.
+     <br> <b> Apenas clientes: </b> Os clientes podem fechar um ticket nesse status, mas a equipe não pode.
+     <br> <b> Pessoal apenas: </b> O pessoal pode fechar um ticket nesse status, mas os clientes não podem.
+     <br> <b> Não: </b> Ninguém pode fechar um ticket nesse status.'; // & quot; = ""
 $hesklang['customers_only']='Somente clientes';
 $hesklang['staff_only']='somente pessoal autorizado';
 $hesklang['yes_title_case']='sim';
@@ -1780,8 +1780,8 @@ $hesklang['autoclose_ticket_status']='Quando um Ticket é fechado automaticament
 $hesklang['recent_tickets']='Tickets recentes';
 $hesklang['current_status_colon']='Estado atual: %s';  // %s: nome do status (ou seja, "Resolvido", "Novo", etc.)
 $hesklang['email_attachments']='Anexos de e-mail';
-$hesklang['email_attachments_help']='<b> Mostrar anexos como links: </ b> Os links para anexos serão anexados no final do e-mail.
-     <br> <br> <b> Anexe diretamente ao e-mail: </ b> Os anexos serão incorporados diretamente em e-mails. ';
+$hesklang['email_attachments_help']='<b> Mostrar anexos como links: </b> Os links para anexos serão anexados no final do e-mail.
+     <br> <br> <b> Anexe diretamente ao e-mail: </b> Os anexos serão incorporados diretamente em e-mails.';
 $hesklang['show_attachments_as_links']='Mostrar anexos como links';
 $hesklang['attach_directly_to_email']='Anexe diretamente ao e-mail';
 
@@ -1802,7 +1802,7 @@ $hesklang['statuses_intro']='Aqui você pode adicionar, remover e modificar os s
 $hesklang['statuses_saved']='Os status dos Tickets foram atualizados!';
 $hesklang['email_template_not_saved']='O modelo de e-mail <b>%s</b>NÃO foi salvo devido a um erro. Habilite o modo de depuração para ver se uma mensagem de erro aparece e assegure-se de que seu arquivo tenha CHMOD 0666'; // %s: Nome do arquivo do modelo
 $hesklang['language_key']='Chave de idioma';
-$hesklang['language_key_description']='Este é o arquivo de idioma \'chave \' que contém o texto que deseja exibir';
+$hesklang['language_key_description']='Este é o arquivo de idioma \'chave\' que contém o texto que deseja exibir';
 $hesklang['can_man_ticket_statuses']='Pode gerenciar status de Ticket';
 $hesklang['key_required']='São necessárias chaves para todos os estados';
 $hesklang['x_merged']='(+ %s mesclado)'; // %s número de tickets mesclados
@@ -1813,14 +1813,14 @@ $hesklang['show_number_merged_help']='Se ativado, o usuário poderá ver quais T
 $hesklang['latest_top_on_home']='Artigos mais recentes / topo na página inicial';
 $hesklang['latest_top_on_home_help']='Selecione SIM para exibir os principais e mais recentes artigos da base de conhecimento na página inicial.
      Caso contrário, um link para a base de conhecimento aparecerá na página inicial.';
-$hesklang['location_unavailable']=' "Localização indisponível. Clique para obter mais informações.";';
-$hesklang['click_for_map']=' "Visualizar o mapa da localização do usuário";';
-$hesklang['request_user_location']=' "Local de solicitação";';
+$hesklang['location_unavailable']="Localização indisponível. Clique para obter mais informações.";
+$hesklang['click_for_map']="Visualizar o mapa da localização do usuário";
+$hesklang['request_user_location']="Local de solicitação";
 $hesklang['latest_top_on_home_help']='Selecione SIM para exibir os principais e mais recentes artigos da base de conhecimento na página inicial.
-     Caso contrário, um link para a base de conhecimento aparecerá na página inicial. ';
+     Caso contrário, um link para a base de conhecimento aparecerá na página inicial.';
 $hesklang['users_location']="Localização do usuário";
-$hesklang['location_unavailable_0']=' "A localização do usuário não está disponível porque o ticket foi criado antes que o rastreamento de localização fosse ativado.";';
-$hesklang['location_unavailable_1']=' "A localização do usuário não está disponível porque o usuário se recusou a compartilhá-lo.";';
+$hesklang['location_unavailable_0']="A localização do usuário não está disponível porque o ticket foi criado antes que o rastreamento de localização fosse ativado.";
+$hesklang['location_unavailable_1']="A localização do usuário não está disponível porque o usuário se recusou a compartilhá-lo.";
 $hesklang['location_unavailable_2']="A localização do usuário não está disponível porque o Help Desk não pôde determinar a posição do usuário.";
 $hesklang['location_unavailable_3']="A localização do usuário não está disponível porque o Help Desk não conseguiu determinar a posição do usuário em uma quantidade razoável de tempo. ";
 $hesklang['location_unavailable_4']="Ocorreu um erro desconhecido ao tentar obter a localização do usuário.";
@@ -1844,7 +1844,7 @@ $hesklang['number_of_users']='Número de usuários';
 $hesklang['actions']='Ações';
 $hesklang['view_permissions_for_this_template']='Ver / editar permissões para este modelo';
 $hesklang['permission']='Permissão';
-$hesklang['permissions_for_template']='Permissões para o modelo <code> %s </ code>'; // %s template name
+$hesklang['permissions_for_template']='Permissões para o modelo <code> %s </code>'; // %s template name
 $hesklang['template_has_admin_privileges']='O modelo de permissão possui privilégios de administrador. Clique para definir como não admin';
 $hesklang['template_has_no_admin_privileges']='O modelo de permissão não possui privilégios de administrador. Clique para definir como administrador';
 $hesklang['staff_cannot_be_admin']='O grupo de permissões de pessoal não possui acesso de administrador e não pode ser configurado como administrador';
@@ -1864,7 +1864,7 @@ $hesklang['no_templates_were_deleted']='Nenhum modelo foi excluído!';
 $hesklang['permission_template_deleted']='Modelo de permissão excluído!';
 $hesklang['permission_template_now_admin']='O modelo de permissão agora foi projetado como um modelo de administrador';
 $hesklang['permission_template_no_longer_admin']='O modelo de permissão não é mais designado como um modelo de administrador';
-$hesklang['cannot_change_admin_staff']='Você não pode alterar o status de administrador / não administrativo para os modelos <b>Administrador</b>e <b>Pessoal</b>!';
+$hesklang['cannot_change_admin_staff']='Você não pode alterar o status de administrador/não-administrador para os modelos <b>Administrador</b>e <b>Pessoal</b>!';
 $hesklang['permission_tpl_man']='Gerenciar modelos de permissão'; //Link de menu
 $hesklang['permission_templates']='Modelos de permissão';
 $hesklang['can_man_permission_tpl']='Pode gerenciar modelos de permissão';
@@ -1876,7 +1876,7 @@ $hesklang['custom']='personalizadas';
 $hesklang['sort_by_user_defined_order']='Classificar por ordem definida pelo usuário';
 $hesklang['sort_alphabetically']='Classifique alfabeticamente';
 $hesklang['category_sort']='Classificação por categoria';
-$hesklang['category_sort_help']='Determina se as categorias exibidas na página de categorias de gerenciamento e todas as opções suspensas são ordenadas pela ordem definida pelo usuário (padrão) ou ordenados alfabeticamente. ';
+$hesklang['category_sort_help']='Determina se as categorias exibidas na página de categorias de gerenciamento e todas as opções suspensas são ordenadas pela ordem definida pelo usuário (padrão) ou ordenados alfabeticamente.';
 $hesklang['quick_help_sections']='Seções de ajuda rápida';
 $hesklang['quick_help_sections_help']='Marque a caixa de seleção para mostrar as seções "Ajuda rápida" no lado esquerdo ou desmarque para não mostrar.';
 $hesklang['create_ticket']='Criar ticket (clientes)';
@@ -1938,9 +1938,9 @@ $hesklang['manage_email_templates']='Gerenciar modelos de e-mail';
 $hesklang['linked_tickets']='Tickets vinculados';
 $hesklang['add_ticket']='Adicionar Ticket';
 $hesklang['cannot_link_ticket_to_itself']='Você não pode vincular um Ticket a si mesmo!';
-$hesklang['linked_ticket_does_not_exist']='<Strong> %s </ strong> não é um ID de rastreamento válido!'; // %s: o ID de rastreamento filho
-$hesklang['is_already_linked']='<Strong> %s </ strong> já está vinculado a este ticket.'; // %s: o ID de rastreamento filho
-$hesklang['link_added']='Ligou com sucesso <strong> %s </ strong> para este ticket.'; // %s: o ID de rastreamento infantil
+$hesklang['linked_ticket_does_not_exist']='<Strong> %s </strong> não é um ID de rastreamento válido!'; // %s: o ID de rastreamento filho
+$hesklang['is_already_linked']='<Strong> %s </strong> já está vinculado a este ticket.'; // %s: o ID de rastreamento filho
+$hesklang['link_added']='Ligou com sucesso <strong> %s </strong> para este ticket.'; // %s: o ID de rastreamento infantil
 $hesklang['ticket_no_longer_linked']='O boletim não está mais vinculado.';
 $hesklang['unlink']='Desvincular';
 
@@ -1955,7 +1955,7 @@ $hesklang['warning_title_case']='Atenção';
 $hesklang['logs']='Logs';
 $hesklang['view_message_log']='Exibir registro de mensagens';
 $hesklang['can_view_logs']='Pode ver registros de mensagens';
-$hesklang['attachment_viewer_message']="Arraste os arquivos aqui ou clique no botão 'Anexar' selecionar os arquivos.";
+$hesklang['attachment_viewer_message']="Arraste os arquivos aqui ou clique no botão 'Anexar' para selecionar os arquivos.";
 $hesklang['attachment_invalid_type_message']='Desculpe, mas o tipo de arquivo que você tentou fazer o upload não é permitido.';
 $hesklang['attachment_upload_error']='Ocorreu um erro ao tentar carregar. Por favor, tente novamente mais tarde.';
 $hesklang['attachment_too_large']='Este anexo é maior do que o tamanho máximo permitido.';
@@ -2037,7 +2037,7 @@ $hesklang['you_have_x_messages']='Você tem %s novo %s';  //%s: Número de novas
 $hesklang['message_lower_case']='mensagem';
 $hesklang['messages_lower_case']='Mensagens';
 $hesklang['deleted_user_title_case']='Usuário deletado';
-$hesklang['x_system_warnings']=' %s Sistema %s'; // %s: Número de advertências, $ s: "Aviso" ou "Advertências", dependendo de #
+$hesklang['x_system_warnings']='%s Sistema %s'; // %s: Número de advertências, $ s: "Aviso" ou "Advertências", dependendo de #
 $hesklang['warnings_title_case']='Avisos';
 $hesklang['articles_in_category_x']='Artigos na Categoria %s'; // %s: nome da categoria
 $hesklang['private_category_star']='Categorias privadas indicadas por *';
@@ -2105,7 +2105,7 @@ $hesklang['customer_navigation']='Navegação do cliente';
 $hesklang['staff_navigation']='Navegação do pessoal';
 $hesklang['custom_nav_text']='Texto';
 $hesklang['custom_nav_subtext']='Sub-texto';
-$hesklang['image_url_slash_font_icon']='URL da imagem / ícone da fonte';
+$hesklang['image_url_slash_font_icon']='URL da imagem/ícone da fonte';
 $hesklang['edit_custom_nav_element_title_case']='Editar elemento de navegação personalizado';
 $hesklang['create_custom_nav_element_title_case']='Criar elemento de navegação personalizado';
 $hesklang['place']='Lugar, colocar';
@@ -2166,7 +2166,7 @@ $hesklang['preset_red_light']='Luz vermelha)';
 $hesklang['preset_black']='Preto';
 $hesklang['preset_black_light']='Luz negra)';
 $hesklang['url_rewrite']='Reescrita de URL';
-$hesklang['url_rewrite_help']='Remova a necessidade de incluir /index.php nos URLs da API (ou / / iap / index.php / v1 / ... -> / api / v1 / ...). Mude o nome htaccess.txt para .htaccess na pasta / api para usar.';
+$hesklang['url_rewrite_help']='Remove the need to include /index.php in API URLs (i.e. /api/index.php/v1/... -> /api/v1/...). Renomeie htaccess.txt to .htaccess na /api pasta do usuario';
 $hesklang['url_rewrite_saved']='Configuração de reescrita de URL salva!';
 $hesklang['api_settings_saved']='Configurações da API salvas!';
 $hesklang['an_error_occurred']='Um erro ocorreu. Verifique os logs para obter mais informações';
